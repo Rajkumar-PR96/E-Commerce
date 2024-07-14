@@ -7,8 +7,8 @@ export const ListProduct = () => {
   const [allproducts, setAllproducts] = useState([]);
 
   const fetchInfo = async () => {
-    await fetch('https://e-commerce-backend-zaft.onrender.com')
-      // 'http://localhost:4000/allproducts
+    await fetch('http://localhost:4000/allproducts')
+      // https://e-commerce-backend-zaft.onrender.com '
     .then((res) => res.json())
     .then((data) => {setAllproducts(data)});
   }
