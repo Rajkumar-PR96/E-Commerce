@@ -18,8 +18,8 @@ const ShopContextProvider = (props) => {
   const [cartItems, setCartItems] = useState(getDefaultCart());
 
   useEffect(() => {
-     fetch('https://e-commerce-backend-zaft.onrender.com')
-       // http://localhost:4000/allproducts
+     fetch('http://localhost:4000/allproducts')
+       // https://e-commerce-backend-zaft.onrender.com 
      .then((response) => response.json())
      .then((data) => setAll_Product(data))
 
