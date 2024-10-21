@@ -1,0 +1,191 @@
+.newslatter{
+    width: 65%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    pad: 0px 140px;
+    margin-bottom: 50px;
+    background-color: gray;
+    gap: 30px;
+    border-radius: 5px;
+}
+.newslatter h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.newslatter h1 span{
+    color: #f30909;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.newslatter p{
+    color: white;
+    font-size: 20px;
+}
+.newslatter div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 600px;
+    height: 55px;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3;
+}
+.newslatter input{
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: #616161;
+    font-family: Poppins;
+    font-size: 16px;
+}
+.newslatter div button{
+    width: 210px;
+    height: 55px;
+    border-radius: 80px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media(max-width:1280px){
+    .newslatter{
+        width: 55%;
+        padding: 80px 80px;
+        margin-top: 250px;
+        gap: 20px;
+        height: fit-content;
+    }
+    .newslatter h1{
+        font-size: 32px;
+    }
+    .newslatter p{
+        font-size: 18px;
+    }
+    .newslatter div{
+        width: 500px;
+        height: 50px;
+    
+    }
+    .newslatter div button{
+        width: 190px;
+        height: 50px;
+    }
+    
+    
+}
+
+@media(max-width:1024px){
+    .newslatter{
+        margin-bottom: 60px;
+    }
+    .newslatter h1{
+        font-size: 25px;
+    }
+    .newslatter h1 span{
+        color: #f30909;
+        font-size: 30px;
+        font-weight: bold;
+        
+    }
+    .newslatter p{
+        font-size: 18px;
+    }
+    .newslatter div{
+        width: 400px;
+        height: 40px;
+    
+    }
+    .newslatter div button{
+        width: 190px;
+        height: 40px;
+    }
+    
+    
+}
+
+@media(max-width:800px){
+    .newslatter{
+        margin-bottom: 30px;
+        height: 20vh;
+    }
+    .newslatter h1{
+        font-size: 15px;
+        
+    }
+    .newslatter p{
+        font-size: 11px;
+    }
+    .newslatter h1 span{
+        color: #f30909;
+        font-size: 20px;
+        font-weight: boldu;
+        
+    }
+    .newslatter div{
+        width: 300px;
+        height: 30px;
+    
+    }
+    .newslatter div input{
+        width: 200px;
+        font-size: 11px;
+    
+    }
+    .newslatter div button{
+        width: 130px;
+        height: 30px;
+        font-size: 13px;
+    }
+    
+    
+}
+
+@media(max-width:500px){
+    .newslatter{
+        margin-top: 30px;
+        height: 25vh;
+        width: 100%;
+        padding: 0;
+        
+    }
+    .newslatter h1{
+        font-size: 20px;
+        
+    }
+    .newslatter p{
+        font-size: 13px;
+    }
+    .newslatter h1 span{
+        color: #f30909;
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    .newslatter div{
+        width: 300px;
+        height: 30px;
+        
+    
+    }
+    .newslatter div input{
+        width: 100px;
+        font-size: 11px;
+    
+    }
+    .newslatter div button{
+        width: 80px;
+        height: 30px;
+        font-size: 11px;
+    }
+    
+    
+}
